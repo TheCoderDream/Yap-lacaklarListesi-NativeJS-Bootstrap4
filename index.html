@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+    <div class="container">
+
+        <div class="card card-form">
+            <div class="card-header"><h3>Yapılacak Listesi</h3>
+            <p>Bu listeye yapıcagın şekleri ekliyebilir çıkartabilir ve yapacagın şey bittiginde onaylayabilirsin</p>
+            </div>
+            <div class="card-header bg-secondary text-left">
+
+                <form id="toDoForm">
+                    <div class="d-flex flex-row">
+                        <div class="container"> <div class="row">
+                            <div class="col-md-10">
+                    <div class="form-group ">
+                        <input type="text" class="form-control form-control-md" id="item">
+                    </div></div>
+                            <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary btn-sm ml-0 p-1"><i id="custom-plus"class="fa fa-plus"></i></button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<!--  list section -->
+
+<div class="container" id="list-section pt-3 bg-light">
+    <ul class="list-group" id="item-list">
+
+
+
+    </ul>
+</div>
+
+
+<script src="js/app.js"></script>
+</body>
+</html>
